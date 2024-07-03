@@ -10,8 +10,7 @@ spring:
       ddl-auto: create # validate | update | create | create-drop
     properties:
       hibernate:
-      format_sql: true
-      
+        format_sql: true
   h2:
     console:
       enabled: true
